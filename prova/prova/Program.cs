@@ -13,6 +13,15 @@ namespace prova
             int[] array = new int[5] { 1, 2, 3, 4, 5 };
 
             Array.Sort(array);
+
+            Print(array);
+            Console.ReadKey();
+        }
+
+        static void Print(int[] array)
+        {
+            foreach (int n in array)
+                Console.WriteLine(n);
         }
     }
 }
